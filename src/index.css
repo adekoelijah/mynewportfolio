@@ -635,10 +635,7 @@ footer{
   justify-content: center;
   margin: 0 auto;
 }
-.footer__image img{
-  width: 2rem;
-  height: 2rem;
-}
+
 .copywright{
   text-align: center;
   padding: 1rem;
@@ -659,6 +656,9 @@ footer{
   display: none;
   flex-direction: column;
   cursor: pointer;
+}
+.ooter__icon{
+  font-size: 2rem;
 }
 
 
@@ -781,6 +781,38 @@ footer{
   }
   .contact__right p{
     padding-bottom: 1rem;
+  }
+
+
+ /*  footer starts here */
+ .footer__image{
+  display: flex;
+  gap: 1rem;
+ }
+ .footer__info-detail{
+  background: var(--color-text-primary);
+  border: 1px solid transparent;
+  color: var(--color-primary);
+  padding: 0.1rem 0.6rem;
+  border-radius: 0.4rem;
+ }
+  .footer__info-detail:hover{
+    background: var(--color-primary);
+    color: var(--color-text-primary);
+  }
+  .footer__icon{
+    color: var(--color-accent);
+    font-size: 2rem;
+  }
+   .footer__icon:hover{
+    color: var(--color-text-primary);
+    
+   }
+  .footer-secondary{
+    color: black;
+  }
+  .footer_tertiary{
+    color: var(--color-primary);
   }
 
 }

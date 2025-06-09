@@ -21,9 +21,15 @@ const Footer = () => {
             </article>
 
             <article className='footer__image'>
-                <a href="https://wa.me/2347088294012" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
-                <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer"><FaGithub /></a>
-                <a href="https://www.linkedin.com/in/adeko-ayomide/" target="blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+                <div className="footer__info-detail">
+                <a href="https://wa.me/2347088294012" target="_blank" rel="noopener noreferrer" className="footer__icon"><FaWhatsapp /></a>
+                </div>
+                <div className="footer__info-detail">
+                <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer" className="footer__icon footer-secondary"><FaGithub /></a>
+                </div>
+                 <div className="footer__info-detail">
+                <a href="https://www.linkedin.com/in/adeko-ayomide/" target="blank" rel="noopener noreferrer" className="footer__icon footer_tertiary"><FaLinkedinIn /></a>
+                </div>
             </article>
         </div>
         <div className="dots"></div>
