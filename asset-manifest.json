@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/adekoelijah/mynewportfolio/static/css/main.5314aa5b.css",
-    "main.js": "/adekoelijah/mynewportfolio/static/js/main.2ae2b165.js",
-    "static/media/hospital.png": "/adekoelijah/mynewportfolio/static/media/hospital.b1f157d1b82edf119554.png",
-    "static/media/port10.png": "/adekoelijah/mynewportfolio/static/media/port10.26db69a4f368a27341ea.png",
-    "static/media/avt6.png": "/adekoelijah/mynewportfolio/static/media/avt6.22605474f8e842382438.png",
-    "static/media/potfolio1.png": "/adekoelijah/mynewportfolio/static/media/potfolio1.07bb936cda6568f80de8.png",
-    "static/media/revid.png": "/adekoelijah/mynewportfolio/static/media/revid.277b127901e0aee119b6.png",
-    "static/media/education.png": "/adekoelijah/mynewportfolio/static/media/education.6ac98711c0d59d4f4f25.png",
-    "static/media/port11.png": "/adekoelijah/mynewportfolio/static/media/port11.f4a5e6d692087d644edf.png",
-    "static/media/port9.png": "/adekoelijah/mynewportfolio/static/media/port9.4d98b5cf69d174c26eaa.png",
-    "static/media/ay.png": "/adekoelijah/mynewportfolio/static/media/ay.0fef71917669df80b980.png",
-    "static/media/avatar5.jpg": "/adekoelijah/mynewportfolio/static/media/avatar5.d25e9a28e32aa5201afa.jpg",
-    "index.html": "/adekoelijah/mynewportfolio/index.html",
-    "main.5314aa5b.css.map": "/adekoelijah/mynewportfolio/static/css/main.5314aa5b.css.map",
-    "main.2ae2b165.js.map": "/adekoelijah/mynewportfolio/static/js/main.2ae2b165.js.map"
+    "main.css": "/mynewportfolio/static/css/main.5314aa5b.css",
+    "main.js": "/mynewportfolio/static/js/main.3a0fb38f.js",
+    "static/media/hospital.png": "/mynewportfolio/static/media/hospital.b1f157d1b82edf119554.png",
+    "static/media/port10.png": "/mynewportfolio/static/media/port10.26db69a4f368a27341ea.png",
+    "static/media/avt6.png": "/mynewportfolio/static/media/avt6.22605474f8e842382438.png",
+    "static/media/potfolio1.png": "/mynewportfolio/static/media/potfolio1.07bb936cda6568f80de8.png",
+    "static/media/revid.png": "/mynewportfolio/static/media/revid.277b127901e0aee119b6.png",
+    "static/media/education.png": "/mynewportfolio/static/media/education.6ac98711c0d59d4f4f25.png",
+    "static/media/port11.png": "/mynewportfolio/static/media/port11.f4a5e6d692087d644edf.png",
+    "static/media/port9.png": "/mynewportfolio/static/media/port9.4d98b5cf69d174c26eaa.png",
+    "static/media/ay.png": "/mynewportfolio/static/media/ay.0fef71917669df80b980.png",
+    "static/media/avatar5.jpg": "/mynewportfolio/static/media/avatar5.d25e9a28e32aa5201afa.jpg",
+    "index.html": "/mynewportfolio/index.html",
+    "main.5314aa5b.css.map": "/mynewportfolio/static/css/main.5314aa5b.css.map",
+    "main.3a0fb38f.js.map": "/mynewportfolio/static/js/main.3a0fb38f.js.map"
   },
   "entrypoints": [
     "static/css/main.5314aa5b.css",
-    "static/js/main.2ae2b165.js"
+    "static/js/main.3a0fb38f.js"
   ]
 }
