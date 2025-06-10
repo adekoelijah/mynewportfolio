@@ -45,8 +45,8 @@ const Project = () => {
                     <p>I used React Router for navigation, CSS Modules for scoped styling, and Framer Motion to add smooth animations. One key challenge was managing layout responsiveness across devices, which I solved using flexbox, grid, and custom media queries. The result is a modern, conversion-focused landing page optimized for performance and user experience</p>
                     <h4>Tech Stack: ReactJs, CSS,React Router ,Hooks  </h4>
                     <div className="project__button">
-                        <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
-                        <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer" className='btn primary'>Live Demo</a>
+                        <a href="https://github.com/adekoelijah/garden-restaurant" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
+                        <a href="https://adekoelijah.github.io/garden-restaurant/" target="blank" rel="noopener noreferrer" className='btn primary'>Live Demo</a>
                     </div>
                 </div>
 
@@ -76,8 +76,8 @@ const Project = () => {
                     <p>A key challenge was creating a responsive design without JavaScript, solved by using semantic HTML and flexible CSS Grid and media queries to ensure smooth viewing on all devices.</p>
                     <h4>Tech Stack: HTML, CSS,Node.js Javascript </h4>
                     <div className="project__button">
-                        <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
-                        <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer" className='btn primary'>Live Demo</a>
+                        <a href="https://github.com/adekoelijah/edu" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
+                        <a href="https://adekoelijah.github.io/edu/" target="blank" rel="noopener noreferrer" className='btn primary'>Live Demo</a>
                     </div>
                 </div>
 
@@ -92,8 +92,8 @@ const Project = () => {
                     <p>Optimized for performance and mobile-first experience.</p>
                     <h4>Tech Stack: Reactjs, CSS,Node.js, Formspree, React Icons, Swiperjs  </h4>
                     <div className="project__button">
-                        <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
-                        <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer"  className='btn primary'>Live Demo</a>
+                        <a href="https://github.com/adekoelijah/mynewportfolio" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
+                        <a href=" https://adekoelijah.github.io/mynewportfolio/" target="blank" rel="noopener noreferrer"  className='btn primary'>Live Demo</a>
                     </div>
                 </div>
 
@@ -122,8 +122,8 @@ const Project = () => {
                     <p>A major challenge was ensuring accessibility and responsiveness across devices without any flukes. I addressed this by leveraging semantic HTML elements and CSS Flexbox with media queries to create a seamless, accessible experience for all users.</p>
                     <h4>Tech Stack: HTML, CSS,Node.js, Javascript </h4>
                     <div className="project__button">
-                        <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
-                        <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer" className='btn primary'>Live Demo</a>
+                        <a href="https://github.com/adekoelijah/hospital" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
+                        <a href="https://adekoelijah.github.io/hospital/" target="blank" rel="noopener noreferrer" className='btn primary'>Live Demo</a>
                     </div>
                 </div>
 
@@ -138,14 +138,22 @@ const Project = () => {
                     <p>One key challenge was balancing modern aesthetics with fast performance, which I solved using semantic HTML structure and optimized CSS styling.</p>
                     <h4>Tech Stack: HTML, CSS,Node.js, Javascript </h4>
                     <div className="project__button">
-                        <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
-                        <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer" className='btn primary'>Live Demo</a>
+                        <a href="https://github.com/adekoelijah/revid-ai" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
+                        <a href="https://adekoelijah.github.io/revid-ai/" target="blank" rel="noopener noreferrer" className='btn primary'>Live Demo</a>
                     </div>
                 </div>
 
 
 
+
             </div>
+            <div className="load__more">
+                <h3>View More Projects</h3>
+                <div className="about__me-dot"></div>
+                <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer" className='btn'> Top Projects </a>
+
+            </div>
+            
 
         </div>
     </section>

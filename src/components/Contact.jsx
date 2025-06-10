@@ -12,6 +12,7 @@ const Contact = () => {
             <div className="about__me-dot"></div>
             <div className="contact__details">
             <div className="contact__left">
+                <p>Fast Message through social media </p>
                 <article >
                     <div className="info__section">
                         <a href="mailto:adekoelijah@gmail.com"><BiLogoGmail />
