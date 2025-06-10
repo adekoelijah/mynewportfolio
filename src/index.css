@@ -835,6 +835,11 @@ footer{
   max-width: 800px;
   margin: auto;
 }
+.faq-section h2{
+  font-size: 1.6rem;
+  color: var(--color-text-primary);
+  text-align: center;
+}
 
 .faq-question {
   background: var(--color-bg);
@@ -844,7 +849,7 @@ footer{
   justify-content: space-between;
   border: 1px solid var(--color-border);
   margin-bottom: 5px;
-  transition: background 0.3s;
+  transition: background var(--transition);
 }
 
 .faq-question:hover {
@@ -856,6 +861,11 @@ footer{
   background: transparent;
   border-left: 3px solid var(--color-primary);
   margin-bottom: 10px;
+
+}
+
+.faq-question h3{
+  font-size: 1.4rem;
 }
 
 .load__more{
