@@ -1,6 +1,7 @@
 import image from '../portfolio-images/ay.png'
 
 
+
 const About = () => {
   return (
     <section className="about" id="about">
@@ -21,7 +22,7 @@ const About = () => {
 
                     <p>💡 I enjoy solving real-world problems with technology</p>
                     <p>🚀 I aim to create fast, accessible, and maintainable software</p>
-                    <a  href="/adeko.pdf" target="_blank" rel="noopener noreferrer" download className='btn primarys'>Download Resume</a>
+                    <a  href="/public/adeko.pdf" target="_blank" rel="noopener noreferrer" download className='btn primarys'>Download Resume</a>
                 </div>
                 <div className="about__right">
                     <img src={image} alt="about images" />

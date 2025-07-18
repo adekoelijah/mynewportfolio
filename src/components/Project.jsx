@@ -7,6 +7,7 @@ import image5 from '../portfolio-images/potfolio1.png'
 import image6 from '../portfolio-images/hospital.png'
 
 import image7 from '../portfolio-images/revid.png'
+import image8 from '../portfolio-images/crypto chart.png'
 
 
 const Project = () => {
@@ -140,6 +141,20 @@ const Project = () => {
                     <div className="project__button">
                         <a href="https://github.com/adekoelijah/revid-ai" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
                         <a href="https://adekoelijah.github.io/revid-ai/" target="blank" rel="noopener noreferrer" className='btn primary'>Live Demo</a>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <div className="detail__image">
+                        <img src={image8} alt="blog" />
+                    </div>
+                    <h3>Crypto Chart</h3>
+                    <p>Crypto chart is a design tailored to imitate crypto chart in real time  </p>
+                    <p>I used Chart.js to solve the responsiveness of the chart in reall time.</p>
+                    <h4>Tech Stack: HTML, CSS,Node.js, Javascript and Chart.js </h4>
+                    <div className="project__button">
+                        <a href="https://github.com/adekoelijah/crypto-chart" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
+                        <a href=" https://adekoelijah.github.io/crypto-chart/" target="blank" rel="noopener noreferrer" className='btn primary'>Live Demo</a>
                     </div>
                 </div>
 
