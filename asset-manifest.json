@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/mynewportfolio/static/css/main.da2c1035.css",
-    "main.js": "/mynewportfolio/static/js/main.c37dcd3b.js",
+    "main.css": "/mynewportfolio/static/css/main.42370ebc.css",
+    "main.js": "/mynewportfolio/static/js/main.99bfa409.js",
     "static/media/hospital.png": "/mynewportfolio/static/media/hospital.b1f157d1b82edf119554.png",
     "static/media/port10.png": "/mynewportfolio/static/media/port10.26db69a4f368a27341ea.png",
     "static/media/avt6.png": "/mynewportfolio/static/media/avt6.22605474f8e842382438.png",
+    "static/media/birthday.png": "/mynewportfolio/static/media/birthday.78d89e5ef54da2ee52fd.png",
     "static/media/potfolio1.png": "/mynewportfolio/static/media/potfolio1.07bb936cda6568f80de8.png",
     "static/media/revid.png": "/mynewportfolio/static/media/revid.277b127901e0aee119b6.png",
     "static/media/crypto chart.png": "/mynewportfolio/static/media/crypto chart.19e470457307ee3f7405.png",
     "static/media/education.png": "/mynewportfolio/static/media/education.6ac98711c0d59d4f4f25.png",
     "static/media/port11.png": "/mynewportfolio/static/media/port11.f4a5e6d692087d644edf.png",
+    "static/media/driving.png": "/mynewportfolio/static/media/driving.aa37c0e1989e16fe4a52.png",
     "static/media/port9.png": "/mynewportfolio/static/media/port9.4d98b5cf69d174c26eaa.png",
     "static/media/ay.png": "/mynewportfolio/static/media/ay.0fef71917669df80b980.png",
     "static/media/avatar5.jpg": "/mynewportfolio/static/media/avatar5.d25e9a28e32aa5201afa.jpg",
     "index.html": "/mynewportfolio/index.html",
-    "main.da2c1035.css.map": "/mynewportfolio/static/css/main.da2c1035.css.map",
-    "main.c37dcd3b.js.map": "/mynewportfolio/static/js/main.c37dcd3b.js.map"
+    "main.42370ebc.css.map": "/mynewportfolio/static/css/main.42370ebc.css.map",
+    "main.99bfa409.js.map": "/mynewportfolio/static/js/main.99bfa409.js.map"
   },
   "entrypoints": [
-    "static/css/main.da2c1035.css",
-    "static/js/main.c37dcd3b.js"
+    "static/css/main.42370ebc.css",
+    "static/js/main.99bfa409.js"
   ]
 }
