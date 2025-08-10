@@ -1,3 +1,11 @@
+
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
+
+
 import image from '../portfolio-images/avt6.png'
 import image1 from '../portfolio-images/port10.png'
 import image2 from '../portfolio-images/port11.png'
@@ -8,23 +16,37 @@ import image6 from '../portfolio-images/hospital.png'
 
 import image7 from '../portfolio-images/revid.png'
 import image8 from '../portfolio-images/crypto chart.png'
+import image9 from '../portfolio-images/driving.png'
+import image10 from '../portfolio-images/birthday.png'
+
+
 
 
 const Project = () => {
+
+     useEffect(() => {
+        AOS.init();
+       /*  AOS.refresh(); */
+      }, []);
+
+
+
+   
+
   return (
     <section className="project" id='project'>
         <div className="container project__container">
-            <h2>Projects</h2>
+            <h2 >Projects</h2>
             <div className="about__me-dot"></div>
 
             <div className="project__wrapper">
 
 
-                <div className="card">
-                    <div className="detail__image">
+                <div className="card"  data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <div className="detail__image" >
                         <img src={image} alt="blog" />
                     </div>
-                    <h3>Blog</h3>
+                    <h3 >Blog</h3>
                     <p>I built this blog website using only HTML, CSS and Javascript. I focused on creating a clean, readable layout with a responsive design that works well across devices. </p>
                     <p> One challenge was organizing the content for both structure and style without using JavaScript. I solved this by using semantic HTML tags and CSS flexbox and media queries to ensure consistent layout and styling.</p>
                     <h4>Tech Stack: HTML, CSS,Node.js Javascript </h4>
@@ -37,7 +59,7 @@ const Project = () => {
 
 
 
-                <div className="card">
+                <div className="card"  data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
                     <div className="detail__image">
                         <img src={image1} alt="blog" />
                     </div>
@@ -53,7 +75,7 @@ const Project = () => {
 
 
 
-                <div className="card">
+                <div className="card"  data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
                     <div className="detail__image">
                         <img src={image2} alt="blog" />
                     </div>
@@ -68,7 +90,7 @@ const Project = () => {
                 </div>
 
 
-                <div className="card">
+                <div className="card"  data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2500">
                     <div className="detail__image">
                         <img src={image3} alt="blog" />
                     </div>
@@ -84,7 +106,7 @@ const Project = () => {
 
 
 
-                <div className="card">
+                <div className="card"  data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000">
                     <div className="detail__image">
                         <img src={image4} alt="blog" />
                     </div>
@@ -99,7 +121,7 @@ const Project = () => {
                 </div>
 
 
-                <div className="card">
+                <div className="card"  data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3500">
                     <div className="detail__image">
                         <img src={image5} alt="blog" />
                     </div>
@@ -114,7 +136,7 @@ const Project = () => {
                 </div>
 
 
-                <div className="card">
+                <div className="card"  data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
                     <div className="detail__image">
                         <img src={image6} alt="blog" />
                     </div>
@@ -130,7 +152,7 @@ const Project = () => {
 
 
 
-                <div className="card">
+                <div className="card"  data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
                     <div className="detail__image">
                         <img src={image7} alt="blog" />
                     </div>
@@ -144,7 +166,7 @@ const Project = () => {
                     </div>
                 </div>
 
-                <div className="card">
+                <div className="card"  data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000">
                     <div className="detail__image">
                         <img src={image8} alt="blog" />
                     </div>
@@ -157,12 +179,39 @@ const Project = () => {
                         <a href=" https://adekoelijah.github.io/crypto-chart/" target="blank" rel="noopener noreferrer" className='btn primary'>Live Demo</a>
                     </div>
                 </div>
+                <div className="card"  data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000">
+                    <div className="detail__image">
+                        <img src={image9} alt="blog" />
+                    </div>
+                    <h3>Driving school website</h3>
+                    <p>Driving school website is a website created for a clients who has a driving school  </p>
+                    <p>This project is a fully responsive multi-pages website with lots of tools and innovations .</p>
+                    <h4>Tech stack: HTML, CSS,Node.js, Javascript, mixitup, Aos animation and others </h4>
+                    <div className="project__button">
+                        <a href="https://github.com/adekoelijah/driving-school" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
+                        <a href=" https://adekoelijah.github.io/driving-school/" target="blank" rel="noopener noreferrer" className='btn primary'>Live Demo</a>
+                    </div>
+                </div>
+
+                <div className="card"  data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000">
+                    <div className="detail__image">
+                        <img src={image10} alt="blog" />
+                    </div>
+                    <h3>Birthday Countdown</h3>
+                    <p>This is a mini project that takes user info and send them birthday wishes after the count down is completed </p>
+                    <p>This is an innovation i am developing for companies who will automatically send bithday wishes to their clients</p>
+                    <h4>Tech Stack: HTML, CSS,Node.js, Javascript </h4>
+                    <div className="project__button">
+                        <a href="https://github.com/adekoelijah/birthday-countdown" target="blank" rel="noopener noreferrer" className='btn'>Github</a>
+                        <a href=" https://adekoelijah.github.io/birthday-countdown/" target="blank" rel="noopener noreferrer" className='btn primary'>Live Demo</a>
+                    </div>
+                </div>
 
 
 
 
             </div>
-            <div className="load__more">
+            <div className="load__more" >
                 <h3>View More Projects</h3>
                 <div className="about__me-dot"></div>
                 <a href="https://github.com/adekoelijah?tab=repositories" target="blank" rel="noopener noreferrer" className='btn'> Top Projects </a>
